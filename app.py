@@ -44,9 +44,9 @@ with tab1:
                     
                     # Display result
                     if prediction == "Spam":
-                        st.error(f"🚨 This email is **SPAM**\n(Model Accuracy: 87%)")
+                        st.error(f"🚨 This email is **SPAM**\n(Model Accuracy: 85%)")
                     else:
-                        st.success(f"✅ This email is **HAM** (Safe)\n( Model Accuracy: 87%)")
+                        st.success(f"✅ This email is **HAM** (Safe)\n( Model Accuracy: 88%)")
                     
                     if confidence:
                         st.info(f"Confidence Score: {confidence:.1f}%")
